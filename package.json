@@ -1,6 +1,6 @@
 {
   "name": "event-aggregate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Funnels events through a single point, so not all of your code needs to attach listeners to every object.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,12 @@
     "type": "git",
     "url": "https://github.com/yoshuawuyts/event-aggregate"
   },
-  "keywords": ["events", "funnel", "aggregate", "listener"],
+  "keywords": [
+    "events",
+    "funnel",
+    "aggregate",
+    "listener"
+  ],
   "author": "Yoshua Wuyts <i@yoshuawuyts.com>",
   "license": "MIT",
   "devDependencies": {

@@ -1,7 +1,7 @@
 {
   "name": "event-aggregate",
   "version": "0.0.0",
-  "description": "",
+  "description": "Funnels events through a single point, so not all of your code needs to attach listeners to every object.",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --recursive -R spec",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/yoshuawuyts/event-aggregate"
   },
-  "keywords": [],
+  "keywords": ["events", "funnel", "aggregate", "listener"],
   "author": "Yoshua Wuyts <i@yoshuawuyts.com>",
   "license": "MIT",
   "devDependencies": {

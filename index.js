@@ -5,7 +5,6 @@
 var debug = require('debug')('event-aggregate');
 var Emitter = require('events').EventEmitter;
 var assert = require('assert');
-var slice = Array.prototype.slice;
 
 /**
  * Expose 'Aggregate'.

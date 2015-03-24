@@ -70,12 +70,12 @@ aggregate.attachListeners = function(emitters) {
 
 function emit() {
   var originalArgs = arguments;
-  var args = [];
 
   debug('Received event: ' + originalArgs[0]);
 
-  Object.keys(originalArgs).forEach(function(key) {
-    args.push(originalArgs[key]);
+  // cast arguments to array
+  var args = Object.keys(originalArgs).map(function(key) {
+    return originalArgs[key];
   })
 
   this.emit.apply(this, args);
